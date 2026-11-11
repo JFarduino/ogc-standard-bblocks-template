@@ -2,8 +2,8 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.iana.org/assignments/> .
-@prefix ns2: <http://www.w3.org/ns/oa#> .
+@prefix ns1: <http://www.w3.org/ns/oa#> .
+@prefix ns2: <http://www.iana.org/assignments/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -19,12 +19,12 @@
     rdfs:label "TODO Title" ;
     dct:abstract "Annex B (informative)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.annex-b> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/annex-b/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/annex-b/index.md> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/annex-b/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.annex-b> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -46,10 +46,10 @@
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/ats/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.ats> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/ats/index.md> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/ats/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.ats> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -69,12 +69,12 @@
     rdfs:label "Bibliography" ;
     dct:abstract "Bibliography of the Standard (informative references)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/bibliography/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.bibliography> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/bibliography/index.json> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/bibliography/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/bibliography/index.md> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -124,10 +124,10 @@
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/conformance/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/conformance/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.conformance> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.conformance> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/conformance/index.json> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -149,10 +149,10 @@
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/conventions/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/conventions/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.conventions> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.conventions> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/conventions/index.json> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -174,10 +174,10 @@
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.informative-text> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/informative-text/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/informative-text/index.md> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/informative-text/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/informative-text/index.json> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -199,10 +199,10 @@
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/media-types/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/media-types/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.media-types> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.media-types> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/media-types/index.json> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -247,12 +247,12 @@
     rdfs:label "Normative references" ;
     dct:abstract "Clause 3: normative references (the informative ones are in the Bibliography)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.references> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/references/index.json> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/references/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/references/index.json> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.references> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -300,10 +300,10 @@
     rdfs:label "Terms and definitions" ;
     dct:abstract "Clause 4: terms and definitions."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/terms/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.terms> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/terms/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/terms/index.json> ] ;
     dct:hasVersion "0.1.0" ;
@@ -328,12 +328,12 @@
     rdfs:label "Contributors" ;
     dct:abstract "Preface section: contributors to the Standard (optional)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.contributors> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/contributors/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/contributors/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/contributors/index.md> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.contributors> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -353,12 +353,12 @@
     rdfs:label "Preface" ;
     dct:abstract "Preface of the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/preface/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/preface/index.json> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.preface> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/preface/index.json> ] ;
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/preface/index.md> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -380,10 +380,10 @@
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/security-considerations/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.security-considerations> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/security-considerations/index.json> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/security-considerations/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.security-considerations> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -403,12 +403,12 @@
     rdfs:label "Submitters" ;
     dct:abstract "Preface section: editors and submitters of the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/submitters/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.submitters> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/submitters/index.md> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/submitters/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/submitters/index.json> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -430,10 +430,10 @@
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/submitting-organizations/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/submitting-organizations/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.submitting-organizations> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.submitting-organizations> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/submitting-organizations/index.md> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -453,12 +453,12 @@
     rdfs:label "Requirement Class A" ;
     dct:abstract "Requirements class A."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/requirements/req-class-a/index.json> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/requirements/req-class-a/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.requirements.req-class-a> ] ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.requirements.req-class-a> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/requirements/req-class-a/index.json> ] ;
     dct:hasVersion "0.1.0" ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
@@ -476,18 +476,18 @@
 
 <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:Nc962b7e80ca84cc5932cb88fd7e73b74 ;
+    prov:wasAttributedTo _:N5561525da1c1487e9ebd15ab96ff78c8 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-11-11T12:58:23.795585"^^xsd:dateTime ;
-            prov:startedAtTime "2026-11-11T12:58:23.605249"^^xsd:dateTime ;
+            prov:endedAtTime "2026-11-11T13:04:42.451789"^^xsd:dateTime ;
+            prov:startedAtTime "2026-11-11T13:04:42.318365"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
-                    dct:format "application/yaml" ;
-                    rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
-                [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:0ff1af674055f67247131557609683f2dee7a49b" ;
-                    rdfs:seeAlso <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/register.json> ] ;
-            prov:wasAssociatedWith _:Nc962b7e80ca84cc5932cb88fd7e73b74 ] .
+                    dct:hasVersion "git:3b75898ebba3fe533618d14c1cd14832e1023002" ;
+                    rdfs:seeAlso <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/register.json> ],
+                [ a prov:Entity ;
+                    dct:format "application/yaml" ;
+                    rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
+            prov:wasAssociatedWith _:N5561525da1c1487e9ebd15ab96ff78c8 ] .
 
 <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> a skos:ConceptScheme,
         dcat:Catalog,
@@ -498,7 +498,7 @@ OGC Building Blocks. The standards document is generated from them (see standard
 """^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:license [ rdfs:label "OGC License Agreement" ;
             rdfs:seeAlso <https://www.ogc.org/license> ] ;
-    dct:modified "2026-11-11T12:58:17.516813"^^xsd:dateTime ;
+    dct:modified "2026-11-11T13:04:38.621677"^^xsd:dateTime ;
     owl:imports <https://opengeospatial.github.io/bblocks/register.json> ;
     skos:hasTopConcept <bblocks://my.std.part1.annexes.annex-b>,
         <bblocks://my.std.part1.annexes.ats>,
@@ -519,22 +519,22 @@ OGC Building Blocks. The standards document is generated from them (see standard
         <bblocks://my.std.part1.preface.submitting-organizations>,
         <bblocks://my.std.part1.requirements.req-class-a> ;
     skos:prefLabel "Building Blocks - TODO Title of the Standard" ;
-    prof:hasResource [ rdfs:label "This Building Blocks Register in JSON format" ;
-            dct:type "application/json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            ns2:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/register.json> ],
-        [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
+    prof:hasResource [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
             dct:type "text/turtle" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            ns2:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.ttl> ],
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            ns1:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.ttl> ],
         [ rdfs:label "This Building Blocks Register in JSON-LD format" ;
             dct:type "application/ld+json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/self> ;
-            ns2:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.jsonld> ] ;
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            ns1:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.jsonld> ],
+        [ rdfs:label "This Building Blocks Register in JSON format" ;
+            dct:type "application/json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            ns1:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/register.json> ] ;
     foaf:homepage <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
     bblocks:hasValidationReport <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/tests/report.html> .
 
-_:Nc962b7e80ca84cc5932cb88fd7e73b74 a prov:Agent,
+_:N5561525da1c1487e9ebd15ab96ff78c8 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.6.0" ;

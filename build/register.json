@@ -2,7 +2,7 @@
   "metaRegistry": "https://w3id.org/ogc/bblocks/meta-register.json",
   "name": "TODO Title of the Standard",
   "abstract": "The clauses, requirements classes, terms and references of this Standard, authored as\nOGC Building Blocks. The standards document is generated from them (see standards.yaml).\n",
-  "modified": "2026-11-11T12:58:17.516813",
+  "modified": "2026-11-11T13:04:38.621677",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"2deb5c60331691186d997e4f6ae9aab18b548ce5",
