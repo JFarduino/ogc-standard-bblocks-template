@@ -23,6 +23,8 @@ imports:
 # Build plugins: generate the standards document(s) described in standards.yaml (bblocks-specgen).
 # The document is written to <build-dir>/<standard id>/index.html, i.e. build/standards/part1/index.html.
 # The JFarduino fork (feature/update branch) adds 'layout: ogc' and file includes.
+# Using the fork is temporary: once https://github.com/ogcincubator/bblocks-specgen/pull/2 is merged,
+# switch 'pip' and 'url' below to the official ogcincubator/bblocks-specgen.
 plugins:
   build:
     - classes: [standard_gen.plugin.SpecgenBuildPlugin]
