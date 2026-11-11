@@ -1,0 +1,13 @@
+{
+  "name": "Clause containing normative material",
+  "abstract": "Clause 7: normative clause; its requirements classes are its subclauses (see standards.yaml).",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": true,
+  "tags": [
+    "standard",
+    "clause"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Preface",
+  "abstract": "Preface of the Standard.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": false,
+  "tags": [
+    "standard",
+    "preface"
+  ]
+}

@@ -1,0 +1,46 @@
+# Requirements class A (clause 7.1)
+#   requirements class: <base-uri>/req/req-class-a      conformance class: <base-uri>/conf/req-class-a
+#   requirement:        <base-uri>/req/req-class-a/req-name-1
+#   recommendation:     <base-uri>/rec/req-class-a/rec-name-1
+#   permission:         <base-uri>/per/req-class-a/per-name-1
+#   abstract test:      <base-uri>/conf/req-class-a/req-name-1
+#
+# TODO: replace the example statements and abstract tests below with those of this class.
+# To add a requirements class, copy this folder (e.g. to requirements/req-class-b/), change its
+# class-id and the ids of its statements (req-class-b/...), and add the new block to the subclauses
+# of clause 7 in standards.yaml, and to Annex A (annexes/ats/description.md).
+#
+# Statements are placed in description.md with <!-- requirement|recommendation|permission: <id> -->
+# markers and numbered in document order. Abstract tests are laid out in Annex A.
+
+class-id: req-class-a
+standardization-target: "TODO Target type"
+depends-on:
+- uri: http://www.example.org/req/blah
+  title: TODO Dependency
+- uri: urn:iso:ts:iso:19139:clause:6
+  title: TODO Dependency
+conformance-class:
+  title: Conformance Class A
+requirements:
+- id: req-class-a/req-name-1
+  statement: TODO Requirement 'shall' statement.
+- id: req-class-a/req-name-2
+  parts:
+  - TODO Requirement 'shall' statement, part A.
+  - TODO Requirement 'shall' statement, part B.
+- id: req-class-a/rec-name-1
+  type: recommendation
+  statement: TODO Recommendation 'should' statement.
+- id: req-class-a/per-name-1
+  type: permission
+  statement: TODO Permission 'may' statement.
+abstract-tests:
+- id: req-class-a/req-name-1
+  requirement: req-class-a/req-name-1
+  purpose: TODO Verify that…
+  method: TODO Inspect…
+- id: req-class-a/req-name-2
+  requirement: req-class-a/req-name-2
+  purpose: TODO Verify that…
+  method: TODO Inspect…

@@ -1,0 +1,20 @@
+{
+  "name": "Bibliography",
+  "abstract": "Bibliography of the Standard (informative references).",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "references",
+  "normative": false,
+  "tags": [
+    "standard",
+    "bibliography"
+  ],
+  "resources": [
+    {
+      "ref": "references.yaml",
+      "role": "references",
+      "format": "application/yaml"
+    }
+  ]
+}

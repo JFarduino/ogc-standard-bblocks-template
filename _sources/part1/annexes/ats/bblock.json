@@ -1,0 +1,13 @@
+{
+  "name": "Conformance Class Abstract Test Suite",
+  "abstract": "Annex A: conformance classes and abstract tests. The tests are defined in the requirements classes (abstract-tests); this block lays out the annex.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": true,
+  "tags": [
+    "standard",
+    "annex"
+  ]
+}

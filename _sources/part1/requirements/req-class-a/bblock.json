@@ -1,0 +1,20 @@
+{
+  "name": "Requirement Class A",
+  "abstract": "Requirements class A.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "requirements-class",
+  "normative": true,
+  "tags": [
+    "standard",
+    "requirements-class"
+  ],
+  "resources": [
+    {
+      "ref": "requirements.yaml",
+      "role": "requirements",
+      "format": "application/yaml"
+    }
+  ]
+}

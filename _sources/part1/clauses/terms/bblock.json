@@ -1,0 +1,20 @@
+{
+  "name": "Terms and definitions",
+  "abstract": "Clause 4: terms and definitions.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "terms",
+  "normative": true,
+  "tags": [
+    "standard",
+    "clause"
+  ],
+  "resources": [
+    {
+      "ref": "terms.yaml",
+      "role": "terms",
+      "format": "application/yaml"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Clause 4 - Terms and definitions (rendered sorted alphabetically).
+# TODO: replace the example with the terms defined by this Standard.
+terms:
+  - term: example term
+    definition: >-
+      term used for exemplary purposes
+      <br><em>Note 1 to entry:</em> An example note.
+      <br><em>EXAMPLE</em> Here's an example of an example term.
+    sources:
+      - title: ISO 19101-1:2014
+        uri: https://www.iso.org/standard/59164.html

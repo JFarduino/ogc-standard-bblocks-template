@@ -1,0 +1,117 @@
+# The OGC Standard generated from the building blocks of this repository.
+#
+# Its structure is that of the OGC "standard" template of Metanorma
+# (https://github.com/metanorma/mn-templates-ogc/tree/master/standard): preface, clauses 1-8,
+# Annex A (Abstract Test Suite), other annexes, Revision History and Bibliography.
+#
+# Fill in every value marked TODO -- ./init.sh (or the "Initialize the standard" GitHub workflow)
+# asks for the main ones -- then generate the document with ./build.sh, or push to GitHub.
+#
+# Read by bblocks-specgen (declared as a build plugin in bblocks-config.yaml), not by
+# bblocks-postprocess. Reference: https://github.com/ogcincubator/bblocks-specgen/blob/master/docs/authoring.md
+
+standards:
+
+  - id: part1                                   # output: build/standards/part1/index.html
+    prefix: my.std.part1                        # identifiers of the blocks in _sources/part1/
+    # Requirements classes live under <prefix>.requirements.<id>; their class id is <id>
+    class-id-prefix: my.std.part1.requirements.
+
+    # Document attributes (Metanorma: title, :docnumber:, :doctype:, :status:, :edition:, …)
+    title: "TODO Title of the Standard"
+    doc-number: "OGC YY-999"
+    type: Standard
+    # Draft: "draft/" is added to the requirement and conformance URIs. Set "Approved" once approved.
+    status: Draft
+    version: "1.0"
+    doc-subtype: Implementation                # e.g. Implementation, Interface, Encoding, Conceptual Model
+    # external-id: http://www.opengis.net/doc/IS/TODO/1.0     # TODO http://www.opengis.net/doc/{doc-type}/{standard}/{m.n}
+    # submission-date: "2026-01-01"                            # Metanorma :received-date:
+    # approval-date: "2026-01-01"                              # Metanorma :issued-date:
+    # pub-date: "2026-01-01"                                   # Metanorma :published-date:
+
+    # Render like a published OGC (Metanorma) document: ModSpec tables, statements numbered across
+    # the document, numbered subclauses, OGC-style cover.
+    layout: ogc
+    modspec:
+      singular-labels: true
+
+    # Requirement URIs are <base-uri>/<status>req/<id>, conformance URIs <base-uri>/<status>conf/<id>
+    base-uri: "http://www.opengis.net/spec/TODO/1.0"
+
+    editors:                                    # Metanorma :fullname:, :fullname_2:, …
+      - name: "TODO Editor Name"
+        affiliation: "TODO Editor Affiliation"
+
+    wg: "TODO Working Group"
+    keywords:
+      - ogcdoc
+      - OGC document
+      - TODO keyword
+
+    # Preface I. Abstract
+    abstract: |
+      TODO Insert Abstract Text here.
+
+    # Front page notices of an OGC draft standard
+    boilerplate:
+      copyright-year: 2026
+      license: OGC License Agreement
+      notices:
+        - title: Notice for Drafts
+          text: |
+            This document is not an OGC Standard. This document is distributed for review and comment. This document is subject to change without notice and may not be referred to as an OGC Standard.
+
+            Recipients of this document are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.
+
+            | | |
+            |---|---|
+            | Document number: | YY-999 |
+            | Document type: | OGC Standard |
+            | Document subtype: | Implementation |
+            | Document stage: | Draft |
+            | Document language: | English |
+        - title: Copyright notice
+          text: |
+            Copyright © 2026 Open Geospatial Consortium<br>
+            To obtain additional rights of use, visit <https://www.ogc.org/legal>
+        - title: Note
+          text: |
+            Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.
+
+            Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.
+        - title: License Agreement
+          text: |
+            Use of this document is subject to the license agreement at <https://www.ogc.org/license>
+
+    # Preface (I, II, III…), before clause 1 (clause_0_front_material.adoc).
+    # The abstract and keywords are generated from above.
+    preface:
+      - auto: abstract                                          # I
+      - auto: keywords                                          # II
+      - bblock: my.std.part1.preface.preface                    # III
+      - bblock: my.std.part1.preface.security-considerations    # IV
+      - bblock: my.std.part1.preface.submitting-organizations   # V
+      - bblock: my.std.part1.preface.submitters                 # VI
+      - bblock: my.std.part1.preface.contributors               # VII (optional)
+
+    # Document order: clauses are numbered in this order. Entries after {auto: annex-a} are
+    # annexes (B, C, …): the Revision History and the Bibliography stay last.
+    clauses:
+      - bblock: my.std.part1.clauses.scope                      # 1
+      - bblock: my.std.part1.clauses.conformance                # 2
+      - bblock: my.std.part1.clauses.references                 # 3
+      - bblock: my.std.part1.clauses.terms                      # 4
+      - bblock: my.std.part1.clauses.conventions                # 5
+      - bblock: my.std.part1.clauses.informative-text           # 6
+      - bblock: my.std.part1.clauses.normative-text             # 7
+        subclauses:                                             # one per requirements class
+          - bblock: my.std.part1.requirements.req-class-a       # 7.1
+      - bblock: my.std.part1.clauses.media-types                # 8
+      - auto: annex-a                                           # A - Abstract Test Suite
+        bblock: my.std.part1.annexes.ats
+        title: Conformance Class Abstract Test Suite
+      - bblock: my.std.part1.annexes.annex-b                    # B
+      - bblock: my.std.part1.annexes.revision-history           # C
+      - bblock: my.std.part1.annexes.bibliography
+        numbered: false

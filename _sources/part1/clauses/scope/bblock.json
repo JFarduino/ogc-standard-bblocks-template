@@ -1,0 +1,13 @@
+{
+  "name": "Scope",
+  "abstract": "Clause 1: scope of the Standard.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": true,
+  "tags": [
+    "standard",
+    "clause"
+  ]
+}

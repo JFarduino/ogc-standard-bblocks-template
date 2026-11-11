@@ -1,0 +1,6 @@
+# Bibliography (informative references, unnumbered closing clause), in the order of this file.
+# TODO: replace the example with the informative references of this Standard (Springer LNCS style).
+sort: false
+informative:
+  - title: "[1] OGC: OGC Testbed 12 Annex B: Architecture (2015)"
+    citation: "[1] OGC: OGC Testbed 12 Annex B: Architecture (2015)."

@@ -1,0 +1,68 @@
+name: Initialize the standard
+
+# Run once, right after creating the repository from the template:
+#   Actions > "Initialize the standard" > Run workflow, then fill in the form.
+# Writes the metadata of the Standard into the repository (./init.sh), commits it and generates
+# the document (runs the "Validate and process Building Blocks" workflow).
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Title of the Standard (e.g. OGC API - Example - Part 1: Core)'
+        required: true
+      doc_number:
+        description: 'OGC document number (e.g. 26-001)'
+        required: true
+      prefix:
+        description: 'Identifier prefix of the building blocks (e.g. ogc.api.example)'
+        required: true
+      base_uri:
+        description: 'Base URI of the requirements and conformance classes (e.g. http://www.opengis.net/spec/ogcapi-example-1/1.0)'
+        required: true
+      editor:
+        description: 'Editor name'
+        required: true
+      affiliation:
+        description: 'Editor affiliation'
+        required: false
+      wg:
+        description: 'Working group (e.g. OGC API - Example SWG)'
+        required: false
+
+permissions:
+  contents: write   # commit the filled-in template
+  actions: write    # start the generation workflow
+
+jobs:
+  initialize:
+    name: Initialize
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fill in the template
+        env:
+          STD_TITLE: ${{ inputs.title }}
+          STD_DOC_NUMBER: ${{ inputs.doc_number }}
+          STD_PREFIX: ${{ inputs.prefix }}
+          STD_BASE_URI: ${{ inputs.base_uri }}
+          STD_EDITOR: ${{ inputs.editor }}
+          STD_AFFILIATION: ${{ inputs.affiliation }}
+          STD_WG: ${{ inputs.wg }}
+        run: ./init.sh
+
+      - name: Commit
+        env:
+          STD_TITLE: ${{ inputs.title }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "Initialize the standard: $STD_TITLE"
+          git push
+
+      # A push made with the workflow token does not trigger other workflows: start it explicitly
+      - name: Generate the document
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run process-bblocks.yml --ref "$GITHUB_REF_NAME"

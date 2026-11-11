@@ -1,0 +1,41 @@
+# Building Blocks register of this repository (read by bblocks-postprocess).
+# Options: https://ogcincubator.github.io/bblocks-docs/
+
+# A short, descriptive name of this building block collection
+name: "TODO Title of the Standard"
+
+# Short abstract for this collection (optional)
+abstract: |
+  The clauses, requirements classes, terms and references of this Standard, authored as
+  OGC Building Blocks. The standards document is generated from them (see standards.yaml).
+
+# Prefix prepended to the path of the building blocks:
+# _sources/part1/requirements/req-class-a/ -> identifier my.std.part1.requirements.req-class-a
+# Identifiers should be as stable as possible: set the prefix (./init.sh does) before publishing.
+identifier-prefix: my.std.
+
+# List of imports ("default" is an alias for the main OGC Building Blocks Register). An entry can
+# also be an "@org/register" alias resolved against the Building Blocks meta-registry, e.g.
+# '@ogc/ogcapi-common' to reference the OGC API - Common components (ogc.api.common.part1.schemas.*).
+imports:
+  - default
+
+# Build plugins: generate the standards document(s) described in standards.yaml (bblocks-specgen).
+# The document is written to <build-dir>/<standard id>/index.html, i.e. build/standards/part1/index.html.
+# The JFarduino fork (feature/update branch) adds 'layout: ogc' and file includes.
+plugins:
+  build:
+    - classes: [standard_gen.plugin.SpecgenBuildPlugin]
+      pip: [bblocks-specgen @ git+https://github.com/JFarduino/bblocks-specgen@feature/update]
+      url: https://github.com/JFarduino/bblocks-specgen
+      config:
+        standards-file: standards.yaml
+        build-dir: build/standards
+
+# Whether to enable the (highly experimental) downcompiling of JSON schemas to OpenAPI 3.0
+schema-oas30-downcompile: False
+
+# Default license for this register and all of its building blocks
+license:
+  name: OGC License Agreement
+  url: https://www.ogc.org/license

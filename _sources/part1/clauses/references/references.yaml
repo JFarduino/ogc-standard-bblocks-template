@@ -1,0 +1,12 @@
+# Clause 3 - Normative references (sorted by doc-id when rendered).
+# TODO: replace the examples with the documents this Standard normatively refers to.
+normative:
+  - title: "Geographic information — Reference model — Part 1: Fundamentals"
+    doc-id: ISO 19101-1:2014
+    uri: https://www.iso.org/standard/59164.html
+    date: "2014"
+
+  - title: "OGC Web Service Common Implementation Specification"
+    doc-id: OGC 06-121r9
+    uri: http://portal.opengeospatial.org/files/?artifact_id=38867
+    date: "2010"

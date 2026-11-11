@@ -1,0 +1,13 @@
+{
+  "name": "Conformance",
+  "abstract": "Clause 2: conformance classes and how to test them.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": true,
+  "tags": [
+    "standard",
+    "clause"
+  ]
+}
