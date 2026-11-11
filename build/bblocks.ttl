@@ -1,0 +1,542 @@
+@prefix bblocks: <https://www.opengis.net/def/bblocks/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix ns2: <http://www.w3.org/ns/oa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<bblocks://my.std.part1.annexes.annex-b> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "TODO Title" ;
+    dct:abstract "Annex B (informative)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.annex-b> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/annex-b/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/annex-b/index.md> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "TODO Title" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "annex",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.annexes.ats> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Conformance Class Abstract Test Suite" ;
+    dct:abstract "Annex A: conformance classes and abstract tests. The tests are defined in the requirements classes (abstract-tests); this block lays out the annex."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/ats/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.ats> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/ats/index.md> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Conformance Class Abstract Test Suite" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "annex",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.annexes.bibliography> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:References ;
+    rdfs:label "Bibliography" ;
+    dct:abstract "Bibliography of the Standard (informative references)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/bibliography/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.bibliography> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/bibliography/index.json> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Bibliography" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "bibliography",
+        "standard" ;
+    prof:hasResource [ dct:format "application/yaml" ;
+            prof:hasArtifact <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/bibliography/references.yaml> ;
+            prof:hasRole <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/references> ] ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.annexes.revision-history> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Revision History" ;
+    dct:abstract "Annex: revision history of the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.revision-history> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/revision-history/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/revision-history/index.md> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Revision History" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "annex",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.clauses.conformance> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Conformance" ;
+    dct:abstract "Clause 2: conformance classes and how to test them."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/conformance/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/conformance/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.conformance> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Conformance" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "clause",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.clauses.conventions> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Conventions" ;
+    dct:abstract "Clause 5: conventions used in the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/conventions/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/conventions/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.conventions> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Conventions" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "clause",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.clauses.informative-text> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Clauses not Containing Normative Material" ;
+    dct:abstract "Clause 6: informative clauses."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.informative-text> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/informative-text/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/informative-text/index.md> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Clauses not Containing Normative Material" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "clause",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.clauses.media-types> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Media Types for any data encoding(s)" ;
+    dct:abstract "Clause 8: media types of the data encodings."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/media-types/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/media-types/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.media-types> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Media Types for any data encoding(s)" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "clause",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.clauses.normative-text> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Clause containing normative material" ;
+    dct:abstract "Clause 7: normative clause; its requirements classes are its subclauses (see standards.yaml)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/normative-text/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/normative-text/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.normative-text> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Clause containing normative material" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "clause",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.clauses.references> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:References ;
+    rdfs:label "Normative references" ;
+    dct:abstract "Clause 3: normative references (the informative ones are in the Bibliography)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.references> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/references/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/references/index.json> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Normative references" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "clause",
+        "standard" ;
+    prof:hasResource [ dct:format "application/yaml" ;
+            prof:hasArtifact <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/references/references.yaml> ;
+            prof:hasRole <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/references> ] ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.clauses.scope> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Scope" ;
+    dct:abstract "Clause 1: scope of the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.scope> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/scope/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/scope/index.json> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Scope" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "clause",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.clauses.terms> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Terms ;
+    rdfs:label "Terms and definitions" ;
+    dct:abstract "Clause 4: terms and definitions."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/terms/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.terms> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/terms/index.json> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Terms and definitions" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "clause",
+        "standard" ;
+    prof:hasResource [ dct:format "application/yaml" ;
+            prof:hasArtifact <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/terms/terms.yaml> ;
+            prof:hasRole <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/terms> ] ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.preface.contributors> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Contributors" ;
+    dct:abstract "Preface section: contributors to the Standard (optional)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.contributors> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/contributors/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/contributors/index.md> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Contributors" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "preface",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.preface.preface> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Preface" ;
+    dct:abstract "Preface of the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/preface/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.preface> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/preface/index.json> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Preface" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "preface",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.preface.security-considerations> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Security considerations" ;
+    dct:abstract "Preface section: security considerations."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/security-considerations/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.security-considerations> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/security-considerations/index.json> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Security considerations" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "preface",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.preface.submitters> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Submitters" ;
+    dct:abstract "Preface section: editors and submitters of the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/submitters/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.submitters> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/submitters/index.md> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Submitters" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "preface",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.preface.submitting-organizations> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Clause ;
+    rdfs:label "Submitting organizations" ;
+    dct:abstract "Preface section: organizations that submitted the Standard."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/submitting-organizations/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/submitting-organizations/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.submitting-organizations> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Submitting organizations" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "preface",
+        "standard" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<bblocks://my.std.part1.requirements.req-class-a> a skos:Concept,
+        dcat:Dataset,
+        bblocks:BBlock,
+        bblocks:Requirements-class ;
+    rdfs:label "Requirement Class A" ;
+    dct:abstract "Requirements class A."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:created "2026-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/requirements/req-class-a/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/requirements/req-class-a/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.requirements.req-class-a> ] ;
+    dct:hasVersion "0.1.0" ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    skos:prefLabel "Requirement Class A" ;
+    skos:topConceptOf <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    dcat:keyword "requirements-class",
+        "standard" ;
+    prof:hasResource [ dct:format "application/yaml" ;
+            prof:hasArtifact <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/requirements/req-class-a/requirements.yaml> ;
+            prof:hasRole <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/requirements> ] ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> ;
+    bblocks:validationPassed true .
+
+<https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    prov:wasAttributedTo _:Nc962b7e80ca84cc5932cb88fd7e73b74 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-11-11T12:58:23.795585"^^xsd:dateTime ;
+            prov:startedAtTime "2026-11-11T12:58:23.605249"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/yaml" ;
+                    rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
+                [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:0ff1af674055f67247131557609683f2dee7a49b" ;
+                    rdfs:seeAlso <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/register.json> ] ;
+            prov:wasAssociatedWith _:Nc962b7e80ca84cc5932cb88fd7e73b74 ] .
+
+<https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> a skos:ConceptScheme,
+        dcat:Catalog,
+        bblocks:BBlocksRegister ;
+    rdfs:label "Building Blocks - TODO Title of the Standard" ;
+    dct:abstract """The clauses, requirements classes, terms and references of this Standard, authored as
+OGC Building Blocks. The standards document is generated from them (see standards.yaml).
+"""^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:license [ rdfs:label "OGC License Agreement" ;
+            rdfs:seeAlso <https://www.ogc.org/license> ] ;
+    dct:modified "2026-11-11T12:58:17.516813"^^xsd:dateTime ;
+    owl:imports <https://opengeospatial.github.io/bblocks/register.json> ;
+    skos:hasTopConcept <bblocks://my.std.part1.annexes.annex-b>,
+        <bblocks://my.std.part1.annexes.ats>,
+        <bblocks://my.std.part1.annexes.bibliography>,
+        <bblocks://my.std.part1.annexes.revision-history>,
+        <bblocks://my.std.part1.clauses.conformance>,
+        <bblocks://my.std.part1.clauses.conventions>,
+        <bblocks://my.std.part1.clauses.informative-text>,
+        <bblocks://my.std.part1.clauses.media-types>,
+        <bblocks://my.std.part1.clauses.normative-text>,
+        <bblocks://my.std.part1.clauses.references>,
+        <bblocks://my.std.part1.clauses.scope>,
+        <bblocks://my.std.part1.clauses.terms>,
+        <bblocks://my.std.part1.preface.contributors>,
+        <bblocks://my.std.part1.preface.preface>,
+        <bblocks://my.std.part1.preface.security-considerations>,
+        <bblocks://my.std.part1.preface.submitters>,
+        <bblocks://my.std.part1.preface.submitting-organizations>,
+        <bblocks://my.std.part1.requirements.req-class-a> ;
+    skos:prefLabel "Building Blocks - TODO Title of the Standard" ;
+    prof:hasResource [ rdfs:label "This Building Blocks Register in JSON format" ;
+            dct:type "application/json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/register.json> ],
+        [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
+            dct:type "text/turtle" ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.ttl> ],
+        [ rdfs:label "This Building Blocks Register in JSON-LD format" ;
+            dct:type "application/ld+json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.jsonld> ] ;
+    foaf:homepage <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/> ;
+    bblocks:hasValidationReport <https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/tests/report.html> .
+
+_:Nc962b7e80ca84cc5932cb88fd7e73b74 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.6.0" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

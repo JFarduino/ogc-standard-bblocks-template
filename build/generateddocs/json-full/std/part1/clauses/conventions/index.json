@@ -1,0 +1,28 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.clauses.conventions",
+  "name": "Conventions",
+  "abstract": "Clause 5: conventions used in the Standard.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": true,
+  "tags": [
+    "standard",
+    "clause"
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/conventions/",
+  "validationPassed": true,
+  "description": "This section provides details and examples for any conventions used in the document. Examples of\nconventions are symbols, abbreviations, use of XML schema, or special notes regarding how to read the\ndocument.\n\n> **NOTE** TODO \u2014 Replace the paragraph above with the conventions used in this document.\n\n## Identifiers\n\nThe normative provisions in this Standard are denoted by the URI\n\n`http://www.opengis.net/spec/TODO/1.0`\n\nAll requirements and conformance tests that appear in this document are denoted by partial URIs which\nare relative to this base.\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/clauses/conventions"
+}

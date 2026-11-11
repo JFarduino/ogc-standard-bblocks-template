@@ -1,0 +1,529 @@
+
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Building Blocks validation report</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+            .entry-message.text-warning-emphasis,
+            .entry-message.text-danger {
+                border-left: 3px solid var(--bs-warning);
+                padding-left: .4rem;
+            }
+            .entry-message.text-danger {
+                border-left-color: var(--bs-danger);
+            }
+            .entry-message {
+                white-space: pre-wrap;
+                font-size: 80%;
+                line-height: 1.1;
+            }
+            *[data-bs-toggle] .caret {
+                display: inline-block;
+                transform: rotate(90deg);
+                transition: transform 0.25s;
+            }
+            *[data-bs-toggle].collapsed .caret {
+                transform: rotate(0deg);
+            }
+            .highlighted {
+                animation: highlight-border 3500ms ease-out;
+            }
+            .highlighted h2 button {
+                animation: highlight 3500ms ease-out;
+            }
+            @keyframes highlight {
+                0% {
+                    background: #ffff90;
+                }
+                100% {
+                    background: var(--bs-accordion-active-bg);
+                }
+            }
+            @keyframes highlight-border {
+                0% {
+                    border-color: red;
+                    border-width: 2px;
+                }
+                100% {
+                    border-color: var(--bs-accordion-border-color);
+                    border-width: var(--bs-accordion-border-width);
+                }
+            }
+            .anchor {
+                color: black;
+                opacity: 0;
+                text-decoration: none;
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+            }
+            .anchor-container:hover .anchor {
+                opacity: 60%;
+            }
+            .anchor-container:hover .anchor:hover {
+                opacity: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Building blocks validation report</h1>
+            <small class="datetime">Generated at 2026-11-11T12:58:23.436771+00:00</small>
+                <p class="summary fw-semibold text-success">
+                    Number of passing building blocks: 18 / 18 (100%)
+                </p>
+            <div class="text-end small" id="expand-collapse">
+                <a href="#" class="expand-all">Expand all</a>
+                <a href="#" class="collapse-all">Collapse all</a>
+            </div>
+                <div class="accordion mt-2" id="bblock-reports">
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.annexes.annex-b" id="bblock-my.std.part1.annexes.annex-b">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.annexes\.annex-b">
+                                    <div class="flex-fill">
+                                        TODO Title
+                                        <small class="ms-2 bblock-id">my.std.part1.annexes.annex-b</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.annexes.annex-b">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.annexes.annex-b">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.annexes.ats" id="bblock-my.std.part1.annexes.ats">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.annexes\.ats">
+                                    <div class="flex-fill">
+                                        Conformance Class Abstract Test Suite
+                                        <small class="ms-2 bblock-id">my.std.part1.annexes.ats</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.annexes.ats">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.annexes.ats">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.annexes.bibliography" id="bblock-my.std.part1.annexes.bibliography">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.annexes\.bibliography">
+                                    <div class="flex-fill">
+                                        Bibliography
+                                        <small class="ms-2 bblock-id">my.std.part1.annexes.bibliography</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.annexes.bibliography">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.annexes.bibliography">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.annexes.revision-history" id="bblock-my.std.part1.annexes.revision-history">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.annexes\.revision-history">
+                                    <div class="flex-fill">
+                                        Revision History
+                                        <small class="ms-2 bblock-id">my.std.part1.annexes.revision-history</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.annexes.revision-history">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.annexes.revision-history">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.clauses.conformance" id="bblock-my.std.part1.clauses.conformance">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.clauses\.conformance">
+                                    <div class="flex-fill">
+                                        Conformance
+                                        <small class="ms-2 bblock-id">my.std.part1.clauses.conformance</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.clauses.conformance">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.clauses.conformance">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.clauses.conventions" id="bblock-my.std.part1.clauses.conventions">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.clauses\.conventions">
+                                    <div class="flex-fill">
+                                        Conventions
+                                        <small class="ms-2 bblock-id">my.std.part1.clauses.conventions</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.clauses.conventions">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.clauses.conventions">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.clauses.informative-text" id="bblock-my.std.part1.clauses.informative-text">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.clauses\.informative-text">
+                                    <div class="flex-fill">
+                                        Clauses not Containing Normative Material
+                                        <small class="ms-2 bblock-id">my.std.part1.clauses.informative-text</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.clauses.informative-text">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.clauses.informative-text">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.clauses.media-types" id="bblock-my.std.part1.clauses.media-types">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.clauses\.media-types">
+                                    <div class="flex-fill">
+                                        Media Types for any data encoding(s)
+                                        <small class="ms-2 bblock-id">my.std.part1.clauses.media-types</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.clauses.media-types">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.clauses.media-types">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.clauses.normative-text" id="bblock-my.std.part1.clauses.normative-text">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.clauses\.normative-text">
+                                    <div class="flex-fill">
+                                        Clause containing normative material
+                                        <small class="ms-2 bblock-id">my.std.part1.clauses.normative-text</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.clauses.normative-text">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.clauses.normative-text">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.clauses.references" id="bblock-my.std.part1.clauses.references">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.clauses\.references">
+                                    <div class="flex-fill">
+                                        Normative references
+                                        <small class="ms-2 bblock-id">my.std.part1.clauses.references</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.clauses.references">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.clauses.references">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.clauses.scope" id="bblock-my.std.part1.clauses.scope">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.clauses\.scope">
+                                    <div class="flex-fill">
+                                        Scope
+                                        <small class="ms-2 bblock-id">my.std.part1.clauses.scope</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.clauses.scope">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.clauses.scope">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.clauses.terms" id="bblock-my.std.part1.clauses.terms">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.clauses\.terms">
+                                    <div class="flex-fill">
+                                        Terms and definitions
+                                        <small class="ms-2 bblock-id">my.std.part1.clauses.terms</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.clauses.terms">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.clauses.terms">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.preface.contributors" id="bblock-my.std.part1.preface.contributors">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.preface\.contributors">
+                                    <div class="flex-fill">
+                                        Contributors
+                                        <small class="ms-2 bblock-id">my.std.part1.preface.contributors</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.preface.contributors">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.preface.contributors">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.preface.preface" id="bblock-my.std.part1.preface.preface">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.preface\.preface">
+                                    <div class="flex-fill">
+                                        Preface
+                                        <small class="ms-2 bblock-id">my.std.part1.preface.preface</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.preface.preface">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.preface.preface">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.preface.security-considerations" id="bblock-my.std.part1.preface.security-considerations">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.preface\.security-considerations">
+                                    <div class="flex-fill">
+                                        Security considerations
+                                        <small class="ms-2 bblock-id">my.std.part1.preface.security-considerations</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.preface.security-considerations">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.preface.security-considerations">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.preface.submitters" id="bblock-my.std.part1.preface.submitters">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.preface\.submitters">
+                                    <div class="flex-fill">
+                                        Submitters
+                                        <small class="ms-2 bblock-id">my.std.part1.preface.submitters</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.preface.submitters">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.preface.submitters">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.preface.submitting-organizations" id="bblock-my.std.part1.preface.submitting-organizations">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.preface\.submitting-organizations">
+                                    <div class="flex-fill">
+                                        Submitting organizations
+                                        <small class="ms-2 bblock-id">my.std.part1.preface.submitting-organizations</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.preface.submitting-organizations">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.preface.submitting-organizations">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bblock-report" data-bblock-id="my.std.part1.requirements.req-class-a" id="bblock-my.std.part1.requirements.req-class-a">
+                            <h2 class="accordion-header bblock-title anchor-container">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#bblock-collapse-my\.std\.part1\.requirements\.req-class-a">
+                                    <div class="flex-fill">
+                                        Requirement Class A
+                                        <small class="ms-2 bblock-id">my.std.part1.requirements.req-class-a</small>
+                                        <a class="anchor" href="#bblock-my.std.part1.requirements.req-class-a">¶</a>
+                                    </div>
+
+                                    <span class="badge text-bg-success me-2">
+                                            Passed
+                                            (no tests)
+                                    </span>
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse " id="bblock-collapse-my.std.part1.requirements.req-class-a">
+                                <div class="accordion-body">
+                                        <div class="alert alert-info mb-0">No tests were found for this building block.</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            window.addEventListener('load', () => {
+                const accordionEntries = [...document.querySelectorAll('#bblock-reports .accordion-collapse')];
+                document.querySelector('#expand-collapse').addEventListener('click', ev => {
+                    ev.preventDefault();
+                    if (ev.target.matches('.expand-all')) {
+                        accordionEntries.forEach(e => e.classList.add('show'));
+                    } else if (ev.target.matches('.collapse-all')) {
+                        accordionEntries.forEach(e => e.classList.remove('show'));
+                    }
+                });
+                if (/^#(bblock|item)-/.test(location.hash)) {
+                    const highlight = document.querySelector(location.hash.replaceAll('.', '\\.'));
+                    if (highlight) {
+                        highlight.querySelector('.accordion-collapse').classList.add('show');
+                        highlight.classList.add('highlighted');
+                    }
+                }
+                document.addEventListener('click', ev => {
+                    if (!ev.target.classList.contains('anchor') || !ev.target.href) {
+                      return;
+                    }
+                    ev.stopPropagation();
+                    navigator?.clipboard?.writeText(ev.target.href);
+                });
+            });
+        </script>
+    </body>
+</html>

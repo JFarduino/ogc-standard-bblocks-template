@@ -1,0 +1,28 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.preface.contributors",
+  "name": "Contributors",
+  "abstract": "Preface section: contributors to the Standard (optional).",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": false,
+  "tags": [
+    "standard",
+    "preface"
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/preface/contributors/",
+  "validationPassed": true,
+  "description": "Additional contributors to this Standard include the following:\n\n- TODO Individual name(s), Organization\n\n> **NOTE** TODO \u2014 This clause is optional: remove it from the preface in standards.yaml if not needed.\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/preface/contributors"
+}

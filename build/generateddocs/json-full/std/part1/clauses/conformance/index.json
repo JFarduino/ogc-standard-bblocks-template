@@ -1,0 +1,28 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.clauses.conformance",
+  "name": "Conformance",
+  "abstract": "Clause 2: conformance classes and how to test them.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": true,
+  "tags": [
+    "standard",
+    "clause"
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/conformance/",
+  "validationPassed": true,
+  "description": "This Standard defines TODO.\n\nRequirements for TODO N standardization target types are considered:\n\n- TODO AAAA\n- TODO BBBB\n\nConformance with this Standard shall be checked using all the relevant tests specified in\n[Annex A](#sec-A) (normative) of this document. The framework, concepts, and methodology for testing,\nand the criteria to be achieved to claim conformance are specified in the OGC Compliance Testing\nPolicies and Procedures and the [OGC Compliance Testing web site](https://www.ogc.org/compliance).\n\nIn order to conform to this OGC\u00ae interface Standard, a software implementation shall choose to\nimplement:\n\n- Any one of the conformance levels specified in [Annex A](#sec-A) (normative).\n- Any one of the Distributed Computing Platform profiles specified in Annexes TODO through TODO\n  (normative).\n\nAll requirements-classes and conformance-classes described in this document are owned by the\nstandard(s) identified.\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/clauses/conformance"
+}

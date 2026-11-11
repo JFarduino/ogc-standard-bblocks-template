@@ -1,0 +1,280 @@
+{
+  "summary": {
+    "total": 18,
+    "passed": 18,
+    "failed": 0,
+    "result": true
+  },
+  "bblocks": {
+    "my.std.part1.annexes.annex-b": {
+      "title": "Validation report for my.std.part1.annexes.annex-b - TODO Title",
+      "bblockName": "TODO Title",
+      "bblockId": "my.std.part1.annexes.annex-b",
+      "generated": "2026-11-11T12:58:23.371435+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.annexes.ats": {
+      "title": "Validation report for my.std.part1.annexes.ats - Conformance Class Abstract Test Suite",
+      "bblockName": "Conformance Class Abstract Test Suite",
+      "bblockId": "my.std.part1.annexes.ats",
+      "generated": "2026-11-11T12:58:23.373844+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.annexes.bibliography": {
+      "title": "Validation report for my.std.part1.annexes.bibliography - Bibliography",
+      "bblockName": "Bibliography",
+      "bblockId": "my.std.part1.annexes.bibliography",
+      "generated": "2026-11-11T12:58:23.376360+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.annexes.revision-history": {
+      "title": "Validation report for my.std.part1.annexes.revision-history - Revision History",
+      "bblockName": "Revision History",
+      "bblockId": "my.std.part1.annexes.revision-history",
+      "generated": "2026-11-11T12:58:23.378715+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.clauses.conformance": {
+      "title": "Validation report for my.std.part1.clauses.conformance - Conformance",
+      "bblockName": "Conformance",
+      "bblockId": "my.std.part1.clauses.conformance",
+      "generated": "2026-11-11T12:58:23.381172+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.clauses.conventions": {
+      "title": "Validation report for my.std.part1.clauses.conventions - Conventions",
+      "bblockName": "Conventions",
+      "bblockId": "my.std.part1.clauses.conventions",
+      "generated": "2026-11-11T12:58:23.383489+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.clauses.informative-text": {
+      "title": "Validation report for my.std.part1.clauses.informative-text - Clauses not Containing Normative Material",
+      "bblockName": "Clauses not Containing Normative Material",
+      "bblockId": "my.std.part1.clauses.informative-text",
+      "generated": "2026-11-11T12:58:23.385774+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.clauses.media-types": {
+      "title": "Validation report for my.std.part1.clauses.media-types - Media Types for any data encoding(s)",
+      "bblockName": "Media Types for any data encoding(s)",
+      "bblockId": "my.std.part1.clauses.media-types",
+      "generated": "2026-11-11T12:58:23.388056+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.clauses.normative-text": {
+      "title": "Validation report for my.std.part1.clauses.normative-text - Clause containing normative material",
+      "bblockName": "Clause containing normative material",
+      "bblockId": "my.std.part1.clauses.normative-text",
+      "generated": "2026-11-11T12:58:23.390431+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.clauses.references": {
+      "title": "Validation report for my.std.part1.clauses.references - Normative references",
+      "bblockName": "Normative references",
+      "bblockId": "my.std.part1.clauses.references",
+      "generated": "2026-11-11T12:58:23.393002+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.clauses.scope": {
+      "title": "Validation report for my.std.part1.clauses.scope - Scope",
+      "bblockName": "Scope",
+      "bblockId": "my.std.part1.clauses.scope",
+      "generated": "2026-11-11T12:58:23.395361+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.clauses.terms": {
+      "title": "Validation report for my.std.part1.clauses.terms - Terms and definitions",
+      "bblockName": "Terms and definitions",
+      "bblockId": "my.std.part1.clauses.terms",
+      "generated": "2026-11-11T12:58:23.397816+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.preface.contributors": {
+      "title": "Validation report for my.std.part1.preface.contributors - Contributors",
+      "bblockName": "Contributors",
+      "bblockId": "my.std.part1.preface.contributors",
+      "generated": "2026-11-11T12:58:23.400313+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.preface.preface": {
+      "title": "Validation report for my.std.part1.preface.preface - Preface",
+      "bblockName": "Preface",
+      "bblockId": "my.std.part1.preface.preface",
+      "generated": "2026-11-11T12:58:23.402652+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.preface.security-considerations": {
+      "title": "Validation report for my.std.part1.preface.security-considerations - Security considerations",
+      "bblockName": "Security considerations",
+      "bblockId": "my.std.part1.preface.security-considerations",
+      "generated": "2026-11-11T12:58:23.404875+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.preface.submitters": {
+      "title": "Validation report for my.std.part1.preface.submitters - Submitters",
+      "bblockName": "Submitters",
+      "bblockId": "my.std.part1.preface.submitters",
+      "generated": "2026-11-11T12:58:23.407199+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.preface.submitting-organizations": {
+      "title": "Validation report for my.std.part1.preface.submitting-organizations - Submitting organizations",
+      "bblockName": "Submitting organizations",
+      "bblockId": "my.std.part1.preface.submitting-organizations",
+      "generated": "2026-11-11T12:58:23.409538+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "my.std.part1.requirements.req-class-a": {
+      "title": "Validation report for my.std.part1.requirements.req-class-a - Requirement Class A",
+      "bblockName": "Requirement Class A",
+      "bblockId": "my.std.part1.requirements.req-class-a",
+      "generated": "2026-11-11T12:58:23.411987+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "hasWarnings": false,
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    }
+  }
+}

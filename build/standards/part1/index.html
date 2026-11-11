@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OGC YY-999 — TODO Title of the Standard</title>
+  <link rel="stylesheet" href="ogc-standard.css">
+  <link rel="stylesheet" href="ogc-layout.css">
+</head>
+<body data-status="Draft" class="layout-ogc">
+
+
+<header id="cover" class="ogc-cover">
+  <p class="doc-stage">Draft</p>
+  <p class="doc-type">OGC Standard</p>
+  <h1>TODO Title of the Standard</h1>
+  
+  <p class="cover-editors">TODO Editor Name <span class="role">Editor</span></p>
+  
+  <table class="cover-meta">
+    
+    
+    
+    
+    <tr><th>Internal identifier of this OGC® document</th><td>OGC YY-999</td></tr>
+    <tr><th>Version</th><td>1.0</td></tr>
+    <tr><th>Document subtype</th><td>Implementation</td></tr>
+  </table>
+  
+  <p><strong>Working Group:</strong> TODO Working Group</p>
+  
+  
+  
+  <div class="boilerplate notices">
+    
+    <div class="notice">
+      <h2 class="notice-title">Notice for Drafts</h2>
+      <p>This document is not an OGC Standard. This document is distributed for review and comment. This document is subject to change without notice and may not be referred to as an OGC Standard.</p>
+<p>Recipients of this document are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Document number:</td>
+<td>YY-999</td>
+</tr>
+<tr>
+<td>Document type:</td>
+<td>OGC Standard</td>
+</tr>
+<tr>
+<td>Document subtype:</td>
+<td>Implementation</td>
+</tr>
+<tr>
+<td>Document stage:</td>
+<td>Draft</td>
+</tr>
+<tr>
+<td>Document language:</td>
+<td>English</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+    
+    <div class="notice">
+      <h2 class="notice-title">Copyright notice</h2>
+      <p>Copyright © 2026 Open Geospatial Consortium<br>
+To obtain additional rights of use, visit <a href="https://www.ogc.org/legal">https://www.ogc.org/legal</a></p>
+
+    </div>
+    
+    <div class="notice">
+      <h2 class="notice-title">Note</h2>
+      <p>Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.</p>
+<p>Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</p>
+
+    </div>
+    
+    <div class="notice">
+      <h2 class="notice-title">License Agreement</h2>
+      <p>Use of this document is subject to the license agreement at <a href="https://www.ogc.org/license">https://www.ogc.org/license</a></p>
+
+    </div>
+    
+  </div>
+</header>
+
+
+<nav id="toc">
+  <h2>Contents</h2>
+  <ul>
+    
+    <li>
+      <a href="#sec-I">I. Abstract</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-II">II. Keywords</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-III">III. Preface</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-IV">IV. Security considerations</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-V">V. Submitting organizations</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-VI">VI. Submitters</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-VII">VII. Contributors</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-1">1. Scope</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-2">2. Conformance</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-3">3. Normative references</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-4">4. Terms and definitions</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-5">5. Conventions</a>
+      
+      <ul>
+        
+        <li class="toc-l3"><a href="#sec-5.1">5.1. Identifiers</a></li>
+        
+      </ul>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-6">6. Clauses not Containing Normative Material</a>
+      
+      <ul>
+        
+        <li class="toc-l3"><a href="#sec-6.1">6.1. Clauses not containing normative material sub-clause 1</a></li>
+        
+        <li class="toc-l3"><a href="#sec-6.2">6.2. Clauses not containing normative material sub-clause 2</a></li>
+        
+      </ul>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-7">7. Clause containing normative material</a>
+      
+      <ul>
+        
+        <li class="toc-l3"><a href="#sec-7.1">7.1. Requirement Class A</a></li>
+        
+        <li class="toc-l4"><a href="#sec-7.1.1">7.1.1. Requirement 1</a></li>
+        
+        <li class="toc-l4"><a href="#sec-7.1.2">7.1.2. Requirement 2</a></li>
+        
+        <li class="toc-l4"><a href="#sec-7.1.3">7.1.3. Recommendation 1</a></li>
+        
+        <li class="toc-l4"><a href="#sec-7.1.4">7.1.4. Permission 1</a></li>
+        
+      </ul>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-8">8. Media Types for any data encoding(s)</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-A">Annex A (normative) Conformance Class Abstract Test Suite</a>
+      
+      <ul>
+        
+        <li class="toc-l3"><a href="#sec-A.1">A.1. Conformance Class A</a></li>
+        
+        <li class="toc-l4"><a href="#sec-A.1.1">A.1.1. Requirement 1</a></li>
+        
+        <li class="toc-l4"><a href="#sec-A.1.2">A.1.2. Requirement 2</a></li>
+        
+      </ul>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-B">Annex B (informative) TODO Title</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-C">Annex C (informative) Revision History</a>
+      
+    </li>
+    
+    <li>
+      <a href="#sec-bibliography">Bibliography</a>
+      
+    </li>
+    
+  </ul>
+</nav>
+
+<main>
+
+  
+  
+
+  
+  
+  <section id="sec-I" class="preface">
+    <h2>I. Abstract</h2>
+    <p>TODO Insert Abstract Text here.</p>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-II" class="preface">
+    <h2>II. Keywords</h2>
+    <p>The following are keywords to be used by search engines and document catalogues.</p>
+<p>ogcdoc, OGC document, TODO keyword</p>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-III" class="informative">
+    <h2>III. Preface</h2>
+    <blockquote>
+<p><strong>NOTE</strong> TODO — Insert Preface Text here. Give OGC specific commentary: describe the technical content,
+reason for document, history of the document and precursors, and plans for future work.</p>
+</blockquote>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-IV" class="informative">
+    <h2>IV. Security considerations</h2>
+    <p>No security considerations have been made for this Standard.</p>
+<blockquote>
+<p><strong>NOTE</strong> TODO — If security considerations have been made for this Standard, replace the sentence above,
+following the examples found in IANA or IETF documents.</p>
+</blockquote>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-V" class="informative">
+    <h2>V. Submitting organizations</h2>
+    <p>The following organizations submitted this Document to the Open Geospatial Consortium (OGC):</p>
+<ul>
+<li>TODO Organization One</li>
+<li>TODO Organization Two</li>
+</ul>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-VI" class="informative">
+    <h2>VI. Submitters</h2>
+    <p>All questions regarding this submission should be directed to the editor or the submitters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Affiliation</th>
+<th>OGC member</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TODO Editor Name (editor)</td>
+<td>TODO Editor Affiliation</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-VII" class="informative">
+    <h2>VII. Contributors</h2>
+    <p>Additional contributors to this Standard include the following:</p>
+<ul>
+<li>TODO Individual name(s), Organization</li>
+</ul>
+<blockquote>
+<p><strong>NOTE</strong> TODO — This clause is optional: remove it from the preface in standards.yaml if not needed.</p>
+</blockquote>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-1" >
+    <h2>1. Scope</h2>
+    <blockquote>
+<p><strong>NOTE</strong> TODO — Insert Scope text here. Give the subject of the document and the aspects of that scope
+covered by the document.</p>
+</blockquote>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-2" >
+    <h2>2. Conformance</h2>
+    <p>This Standard defines TODO.</p>
+<p>Requirements for TODO N standardization target types are considered:</p>
+<ul>
+<li>TODO AAAA</li>
+<li>TODO BBBB</li>
+</ul>
+<p>Conformance with this Standard shall be checked using all the relevant tests specified in
+<a href="#sec-A">Annex A</a> (normative) of this document. The framework, concepts, and methodology for testing,
+and the criteria to be achieved to claim conformance are specified in the OGC Compliance Testing
+Policies and Procedures and the <a href="https://www.ogc.org/compliance">OGC Compliance Testing web site</a>.</p>
+<p>In order to conform to this OGC® interface Standard, a software implementation shall choose to
+implement:</p>
+<ul>
+<li>Any one of the conformance levels specified in <a href="#sec-A">Annex A</a> (normative).</li>
+<li>Any one of the Distributed Computing Platform profiles specified in Annexes TODO through TODO
+(normative).</li>
+</ul>
+<p>All requirements-classes and conformance-classes described in this document are owned by the
+standard(s) identified.</p>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-3">
+    <h2>3. Normative references</h2>
+    <p>The following normative documents contain provisions that, through reference in this text,
+constitute provisions of this document. For dated references, subsequent amendments to, or revisions
+of, any of these publications do not apply. For undated references, the latest edition of the
+normative document referred to applies.</p>
+<blockquote>
+<p><strong>NOTE</strong> TODO — Insert References in references.yaml. If there are no references, leave the list empty.
+References are to follow the Springer LNCS style, with the exception that optional information
+may be appended to references: DOIs are added after the date and web resource references may
+include an access date at the end of the reference in parentheses.</p>
+</blockquote>
+
+    
+    <div class="reference-entry">
+      <span class="ref-id">ISO 19101-1:2014</span>
+      <span class="ref-body">
+        <a href="https://www.iso.org/standard/59164.html">Geographic information — Reference model — Part 1: Fundamentals</a>
+         (2014)
+      </span>
+    </div>
+    
+    <div class="reference-entry">
+      <span class="ref-id">OGC 06-121r9</span>
+      <span class="ref-body">
+        <a href="http://portal.opengeospatial.org/files/?artifact_id=38867">OGC Web Service Common Implementation Specification</a>
+         (2010)
+      </span>
+    </div>
+    
+    
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-4">
+    <h2>4. Terms and definitions</h2>
+    <p>This document uses the terms defined in
+<a href="https://portal.ogc.org/public_ogc/directives/directives.php">OGC Policy Directive 49</a>, which is based on
+the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. In
+particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly
+followed to conform to this document and OGC documents do not use the equivalent phrases in the ISO/IEC
+Directives, Part 2.</p>
+<p>This document also uses terms defined in the OGC Standard for Modular specifications
+(<a href="https://portal.ogc.org/files/?artifact_id=34762">OGC 08-131r3</a>), also known as the ‘ModSpec’. The
+definitions of terms such as standard, specification, requirement, and conformance test are provided in
+the ModSpec.</p>
+<p>For the purposes of this document, the following additional terms and definitions apply.</p>
+<h3 id="sec-4.1">4.1. example term</h3>
+<p>term used for exemplary purposes <br><em>Note 1 to entry:</em> An example note. <br><em>EXAMPLE</em> Here's an example of an example term.</p>
+<p>[SOURCE: <a href="https://www.iso.org/standard/59164.html">ISO 19101-1:2014</a>]</p>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-5" >
+    <h2>5. Conventions</h2>
+    <p>This section provides details and examples for any conventions used in the document. Examples of
+conventions are symbols, abbreviations, use of XML schema, or special notes regarding how to read the
+document.</p>
+<blockquote>
+<p><strong>NOTE</strong> TODO — Replace the paragraph above with the conventions used in this document.</p>
+</blockquote>
+<h3 id="sec-5.1">5.1. Identifiers</h3>
+<p>The normative provisions in this Standard are denoted by the URI</p>
+<p><code>http://www.opengis.net/spec/TODO/1.0</code></p>
+<p>All requirements and conformance tests that appear in this document are denoted by partial URIs which
+are relative to this base.</p>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-6" class="informative">
+    <h2>6. Clauses not Containing Normative Material</h2>
+    <p>TODO Paragraph</p>
+<h3 id="sec-6.1">6.1. Clauses not containing normative material sub-clause 1</h3>
+<p>TODO Paragraph</p>
+<h3 id="sec-6.2">6.2. Clauses not containing normative material sub-clause 2</h3>
+<p>TODO Paragraph</p>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-7" >
+    <h2>7. Clause containing normative material</h2>
+    <p>TODO Paragraph</p>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-7.1" class="requirements-class">
+    <h3>7.1. Requirement Class A</h3>
+
+    
+
+    
+    <p>TODO Paragraph – intro text for the requirement class.</p>
+
+    <div class="modspec-block req-class" id="bb-my-std-part1-requirements-req-class-a">
+    <table class="modspec">
+      <thead><tr><th colspan="2">Requirements class 1: Requirement Class A</th></tr></thead>
+      <tbody>
+        <tr><th>Identifier</th><td><code>http://www.opengis.net/spec/TODO/1.0/draft/req/req-class-a</code></td></tr>
+        <tr><th>Obligation</th><td>requirement</td></tr>
+        <tr><th>Target type</th><td>TODO Target type</td></tr>
+        
+        <tr><th>Prerequisites</th><td>
+          <a href="http://www.example.org/req/blah">TODO Dependency</a><br><a href="urn:iso:ts:iso:19139:clause:6">TODO Dependency</a>
+        </td></tr>
+        
+        
+        
+        <tr><th>Normative statements</th><td>
+          Requirement 1: <a href="#req-req-class-a-req-name-1"><code>/draft/req/req-class-a/req-name-1</code></a><br>Requirement 2: <a href="#req-req-class-a-req-name-2"><code>/draft/req/req-class-a/req-name-2</code></a>
+        </td></tr>
+        
+      </tbody>
+    </table>
+    </div>
+<h4 id="sec-7.1.1">7.1.1. Requirement 1</h4>
+<p>TODO Paragraph – intro text for the requirement.</p>
+
+    <div class="modspec-block statement-requirement" id="req-req-class-a-req-name-1">
+    <table class="modspec">
+      <thead><tr><th colspan="2">Requirement 1</th></tr></thead>
+      <tbody>
+        <tr><th>Identifier</th><td><code>/draft/req/req-class-a/req-name-1</code></td></tr>
+        
+        <tr><th>Included in</th><td>Requirements class 1: <a href="#bb-my-std-part1-requirements-req-class-a"><code>http://www.opengis.net/spec/TODO/1.0/draft/req/req-class-a</code></a></td></tr>
+        
+        
+        
+        
+        <tr><th>A</th><td><p>TODO Requirement 'shall' statement.</p>
+</td></tr>
+        
+        
+        
+        
+      </tbody>
+    </table>
+    
+    </div>
+<p>Dictionary tables for requirements can be added as necessary. Modify the following example as needed.</p>
+<table>
+<thead>
+<tr>
+<th>Names</th>
+<th>Definition</th>
+<th>Data types and values</th>
+<th>Multiplicity and use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name 1</td>
+<td>definition of name 1</td>
+<td>float</td>
+<td>One or more (mandatory)</td>
+</tr>
+<tr>
+<td>name 2</td>
+<td>definition of name 2</td>
+<td>character string type, not empty</td>
+<td>Zero or one (optional)</td>
+</tr>
+<tr>
+<td>name 3</td>
+<td>definition of name 3</td>
+<td>GML:: Point PropertyType</td>
+<td>One (mandatory)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="sec-7.1.2">7.1.2. Requirement 2</h4>
+<p>TODO Paragraph – intro text for the requirement.</p>
+
+    <div class="modspec-block statement-requirement" id="req-req-class-a-req-name-2">
+    <table class="modspec">
+      <thead><tr><th colspan="2">Requirement 2</th></tr></thead>
+      <tbody>
+        <tr><th>Identifier</th><td><code>/draft/req/req-class-a/req-name-2</code></td></tr>
+        
+        <tr><th>Included in</th><td>Requirements class 1: <a href="#bb-my-std-part1-requirements-req-class-a"><code>http://www.opengis.net/spec/TODO/1.0/draft/req/req-class-a</code></a></td></tr>
+        
+        
+        
+        
+        
+        
+        <tr><th>A</th><td><p>TODO Requirement 'shall' statement, part A.</p>
+</td></tr>
+        
+        <tr><th>B</th><td><p>TODO Requirement 'shall' statement, part B.</p>
+</td></tr>
+        
+        
+        
+        
+        
+      </tbody>
+    </table>
+    
+    </div>
+<h4 id="sec-7.1.3">7.1.3. Recommendation 1</h4>
+
+    <div class="modspec-block statement-recommendation" id="rec-req-class-a-rec-name-1">
+    <table class="modspec">
+      <thead><tr><th colspan="2">Recommendation 1</th></tr></thead>
+      <tbody>
+        <tr><th>Identifier</th><td><code>/draft/rec/req-class-a/rec-name-1</code></td></tr>
+        
+        
+        
+        
+        <tr><th>A</th><td><p>TODO Recommendation 'should' statement.</p>
+</td></tr>
+        
+        
+        
+        
+      </tbody>
+    </table>
+    
+    </div>
+<h4 id="sec-7.1.4">7.1.4. Permission 1</h4>
+
+    <div class="modspec-block statement-permission" id="per-req-class-a-per-name-1">
+    <table class="modspec">
+      <thead><tr><th colspan="2">Permission 1</th></tr></thead>
+      <tbody>
+        <tr><th>Identifier</th><td><code>/draft/per/req-class-a/per-name-1</code></td></tr>
+        
+        
+        
+        
+        <tr><th>A</th><td><p>TODO Permission 'may' statement.</p>
+</td></tr>
+        
+        
+        
+        
+      </tbody>
+    </table>
+    
+    </div>
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-8" >
+    <h2>8. Media Types for any data encoding(s)</h2>
+    <blockquote>
+<p><strong>NOTE</strong> TODO — A section describing the MIME-types to be used is mandatory for any standard involving data
+encodings. If no suitable MIME type exists in
+<a href="http://www.iana.org/assignments/media-types/index.html">http://www.iana.org/assignments/media-types/index.html</a> then this section may be used to define
+a new MIME type for registration with IANA.</p>
+</blockquote>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-A" class="annex-section normative">
+    <h2>Annex A (normative) Conformance Class Abstract Test Suite</h2>
+    <blockquote>
+<p><strong>NOTE</strong> TODO — Ensure that there is a conformance class for each requirements class and a test for
+each requirement (identified by requirement name and number). The abstract tests are defined in the
+<code>abstract-tests</code> of each <code>requirements.yaml</code>; this annex lays them out with markers.</p>
+</blockquote>
+<h3 id="sec-A.1">A.1. Conformance Class A</h3>
+<div class="modspec-block conf-class" id="conf-req-class-a">
+    <table class="modspec">
+      <thead><tr><th colspan="2">Conformance class A.1: Conformance Class A</th></tr></thead>
+      <tbody>
+        <tr><th>Identifier</th><td><code>http://www.opengis.net/spec/TODO/1.0/draft/conf/req-class-a</code></td></tr>
+        
+        <tr><th>Target Type</th><td>TODO Target type</td></tr>
+        
+        <tr><th>Conformance tests</th><td>
+          Abstract test A.1: <a href="#ats-req-class-a-req-name-1"><code>/draft/conf/req-class-a/req-name-1</code></a><br>Abstract test A.2: <a href="#ats-req-class-a-req-name-2"><code>/draft/conf/req-class-a/req-name-2</code></a>
+        </td></tr>
+        
+      </tbody>
+    </table>
+    </div><h4 id="sec-A.1.1">A.1.1. Requirement 1</h4>
+<div class="modspec-block abstract-test" id="ats-req-class-a-req-name-1">
+    <table class="modspec">
+      <thead><tr><th colspan="2">Abstract test A.1</th></tr></thead>
+      <tbody>
+        <tr><th>Identifier</th><td><code>/draft/conf/req-class-a/req-name-1</code></td></tr>
+        
+        <tr><th>Requirement</th><td>Requirement 1: <a href="#req-req-class-a-req-name-1"><code>/draft/req/req-class-a/req-name-1</code></a></td></tr>
+        
+        
+        
+        <tr><th>Test purpose</th><td><p>TODO Verify that…</p>
+</td></tr>
+        
+        
+        <tr><th>Test method</th><td><p>TODO Inspect…</p>
+</td></tr>
+        
+        
+      </tbody>
+    </table>
+    </div><h4 id="sec-A.1.2">A.1.2. Requirement 2</h4>
+<div class="modspec-block abstract-test" id="ats-req-class-a-req-name-2">
+    <table class="modspec">
+      <thead><tr><th colspan="2">Abstract test A.2</th></tr></thead>
+      <tbody>
+        <tr><th>Identifier</th><td><code>/draft/conf/req-class-a/req-name-2</code></td></tr>
+        
+        <tr><th>Requirement</th><td>Requirement 2: <a href="#req-req-class-a-req-name-2"><code>/draft/req/req-class-a/req-name-2</code></a></td></tr>
+        
+        
+        
+        <tr><th>Test purpose</th><td><p>TODO Verify that…</p>
+</td></tr>
+        
+        
+        <tr><th>Test method</th><td><p>TODO Inspect…</p>
+</td></tr>
+        
+        
+      </tbody>
+    </table>
+    </div>
+    
+    
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-B" class="informative">
+    <h2>Annex B (informative) TODO Title</h2>
+    <blockquote>
+<p><strong>NOTE</strong> TODO — Place other Annex material in sequential annexes beginning with &quot;B&quot; and leave final two
+annexes for the Revision History and Bibliography.</p>
+</blockquote>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-C" class="informative">
+    <h2>Annex C (informative) Revision History</h2>
+    <table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Release</th>
+<th>Editor</th>
+<th>Primary clauses modified</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TODO 2026-01-01</td>
+<td>0.1</td>
+<td>TODO Editor Name</td>
+<td>all</td>
+<td>initial version</td>
+</tr>
+</tbody>
+</table>
+
+  </section>
+
+  
+  
+
+  
+  
+
+  
+  
+  <section id="sec-bibliography" class="informative">
+    <h2>Bibliography</h2>
+    <blockquote>
+<p><strong>NOTE</strong> TODO — The TC has approved Springer LNCS as the official document citation type. For citations in
+the text please use square brackets and consecutive numbers: [1], [2], [3].
+Journal: [n] Author Surname, A.: Title. Publication Title. Volume number, Issue number, Pages
+Used (Year Published). Web: [n] Author Surname, A.: Title, http://Website-Url</p>
+</blockquote>
+
+    
+    
+    
+    <div class="reference-entry citation"><p>[1] OGC: OGC Testbed 12 Annex B: Architecture (2015).</p>
+</div>
+    
+    
+  </section>
+
+  
+  
+
+</main>
+
+<footer>
+  <p>
+    2026
+    Open Geospatial Consortium —
+    OGC YY-999
+     — OGC License Agreement
+  </p>
+  <p>Generated by <strong>bblocks-specgen</strong></p>
+</footer>
+
+</body>
+</html>

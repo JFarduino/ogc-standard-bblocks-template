@@ -1,0 +1,15 @@
+{
+  "title": "Validation report for my.std.part1.clauses.references - Normative references",
+  "bblockName": "Normative references",
+  "bblockId": "my.std.part1.clauses.references",
+  "generated": "2026-11-11T12:58:23.393002+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Validation report for my.std.part1.preface.security-considerations - Security considerations",
+  "bblockName": "Security considerations",
+  "bblockId": "my.std.part1.preface.security-considerations",
+  "generated": "2026-11-11T12:58:23.404875+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}

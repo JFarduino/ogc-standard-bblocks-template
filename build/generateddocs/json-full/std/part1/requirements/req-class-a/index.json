@@ -1,0 +1,35 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.requirements.req-class-a",
+  "name": "Requirement Class A",
+  "abstract": "Requirements class A.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "requirements-class",
+  "normative": true,
+  "tags": [
+    "standard",
+    "requirements-class"
+  ],
+  "resources": [
+    {
+      "ref": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/requirements/req-class-a/requirements.yaml",
+      "role": "requirements",
+      "format": "application/yaml"
+    }
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/requirements/req-class-a/",
+  "validationPassed": true,
+  "description": "TODO Paragraph \u2013 intro text for the requirement class.\n\n<!-- requirements-class -->\n\n## Requirement 1\n\nTODO Paragraph \u2013 intro text for the requirement.\n\n<!-- requirement: req-class-a/req-name-1 -->\n\nDictionary tables for requirements can be added as necessary. Modify the following example as needed.\n\n| Names | Definition | Data types and values | Multiplicity and use |\n|---|---|---|---|\n| name 1 | definition of name 1 | float | One or more (mandatory) |\n| name 2 | definition of name 2 | character string type, not empty | Zero or one (optional) |\n| name 3 | definition of name 3 | GML:: Point PropertyType | One (mandatory) |\n\n## Requirement 2\n\nTODO Paragraph \u2013 intro text for the requirement.\n\n<!-- requirement: req-class-a/req-name-2 -->\n\n## Recommendation 1\n\n<!-- recommendation: req-class-a/rec-name-1 -->\n\n## Permission 1\n\n<!-- permission: req-class-a/per-name-1 -->\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/requirements/req-class-a"
+}

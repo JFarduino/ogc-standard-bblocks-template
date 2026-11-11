@@ -1,0 +1,15 @@
+{
+  "title": "Validation report for my.std.part1.clauses.normative-text - Clause containing normative material",
+  "bblockName": "Clause containing normative material",
+  "bblockId": "my.std.part1.clauses.normative-text",
+  "generated": "2026-11-11T12:58:23.390431+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}

@@ -1,0 +1,28 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.clauses.normative-text",
+  "name": "Clause containing normative material",
+  "abstract": "Clause 7: normative clause; its requirements classes are its subclauses (see standards.yaml).",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": true,
+  "tags": [
+    "standard",
+    "clause"
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/normative-text/",
+  "validationPassed": true,
+  "description": "TODO Paragraph\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/clauses/normative-text"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Validation report for my.std.part1.clauses.conventions - Conventions",
+  "bblockName": "Conventions",
+  "bblockId": "my.std.part1.clauses.conventions",
+  "generated": "2026-11-11T12:58:23.383489+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}

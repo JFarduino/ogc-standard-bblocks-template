@@ -1,0 +1,28 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.annexes.annex-b",
+  "name": "TODO Title",
+  "abstract": "Annex B (informative).",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": false,
+  "tags": [
+    "standard",
+    "annex"
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/annex-b/",
+  "validationPassed": true,
+  "description": "> **NOTE** TODO \u2014 Place other Annex material in sequential annexes beginning with \"B\" and leave final two\n> annexes for the Revision History and Bibliography.\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/annexes/annex-b"
+}

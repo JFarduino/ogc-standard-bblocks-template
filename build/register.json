@@ -1,0 +1,749 @@
+{
+  "metaRegistry": "https://w3id.org/ogc/bblocks/meta-register.json",
+  "name": "TODO Title of the Standard",
+  "abstract": "The clauses, requirements classes, terms and references of this Standard, authored as\nOGC Building Blocks. The standards document is generated from them (see standards.yaml).\n",
+  "modified": "2026-11-11T12:58:17.516813",
+  "tooling": {
+    "bblocks-postprocess": {
+      "commitId": "\"2deb5c60331691186d997e4f6ae9aab18b548ce5",
+      "shortCommitId": "\"2deb5c",
+      "date": "2026-11-09T12:20:47+00:00\""
+    }
+  },
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitHubRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template/blob/main/",
+  "baseURL": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/",
+  "viewerURL": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/",
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "validationReport": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/tests/report.html",
+  "validationReportJson": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/tests/report.json",
+  "imports": [
+    "https://opengeospatial.github.io/bblocks/register.json"
+  ],
+  "bblocks": [
+    {
+      "itemIdentifier": "my.std.part1.annexes.annex-b",
+      "name": "TODO Title",
+      "abstract": "Annex B (informative).",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": false,
+      "tags": [
+        "standard",
+        "annex"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/annex-b/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/annex-b/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/annex-b/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.annex-b"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.annexes.ats",
+      "name": "Conformance Class Abstract Test Suite",
+      "abstract": "Annex A: conformance classes and abstract tests. The tests are defined in the requirements classes (abstract-tests); this block lays out the annex.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": true,
+      "tags": [
+        "standard",
+        "annex"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/ats/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/ats/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/ats/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.ats"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.annexes.bibliography",
+      "name": "Bibliography",
+      "abstract": "Bibliography of the Standard (informative references).",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "references",
+      "normative": false,
+      "tags": [
+        "standard",
+        "bibliography"
+      ],
+      "resources": [
+        {
+          "ref": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/bibliography/references.yaml",
+          "role": "references",
+          "format": "application/yaml"
+        }
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/bibliography/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/bibliography/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/bibliography/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.bibliography"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.annexes.revision-history",
+      "name": "Revision History",
+      "abstract": "Annex: revision history of the Standard.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": false,
+      "tags": [
+        "standard",
+        "annex"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/revision-history/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/annexes/revision-history/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/annexes/revision-history/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.annexes.revision-history"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.clauses.conformance",
+      "name": "Conformance",
+      "abstract": "Clause 2: conformance classes and how to test them.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": true,
+      "tags": [
+        "standard",
+        "clause"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/conformance/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/conformance/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/conformance/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.conformance"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.clauses.conventions",
+      "name": "Conventions",
+      "abstract": "Clause 5: conventions used in the Standard.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": true,
+      "tags": [
+        "standard",
+        "clause"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/conventions/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/conventions/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/conventions/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.conventions"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.clauses.informative-text",
+      "name": "Clauses not Containing Normative Material",
+      "abstract": "Clause 6: informative clauses.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": false,
+      "tags": [
+        "standard",
+        "clause"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/informative-text/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/informative-text/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/informative-text/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.informative-text"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.clauses.media-types",
+      "name": "Media Types for any data encoding(s)",
+      "abstract": "Clause 8: media types of the data encodings.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": true,
+      "tags": [
+        "standard",
+        "clause"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/media-types/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/media-types/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/media-types/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.media-types"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.clauses.normative-text",
+      "name": "Clause containing normative material",
+      "abstract": "Clause 7: normative clause; its requirements classes are its subclauses (see standards.yaml).",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": true,
+      "tags": [
+        "standard",
+        "clause"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/normative-text/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/normative-text/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/normative-text/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.normative-text"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.clauses.references",
+      "name": "Normative references",
+      "abstract": "Clause 3: normative references (the informative ones are in the Bibliography).",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "references",
+      "normative": true,
+      "tags": [
+        "standard",
+        "clause"
+      ],
+      "resources": [
+        {
+          "ref": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/references/references.yaml",
+          "role": "references",
+          "format": "application/yaml"
+        }
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/references/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/references/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/references/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.references"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.clauses.scope",
+      "name": "Scope",
+      "abstract": "Clause 1: scope of the Standard.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": true,
+      "tags": [
+        "standard",
+        "clause"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/scope/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/scope/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/scope/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.scope"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.clauses.terms",
+      "name": "Terms and definitions",
+      "abstract": "Clause 4: terms and definitions.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "terms",
+      "normative": true,
+      "tags": [
+        "standard",
+        "clause"
+      ],
+      "resources": [
+        {
+          "ref": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/terms/terms.yaml",
+          "role": "terms",
+          "format": "application/yaml"
+        }
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/terms/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/clauses/terms/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/clauses/terms/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.clauses.terms"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.preface.contributors",
+      "name": "Contributors",
+      "abstract": "Preface section: contributors to the Standard (optional).",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": false,
+      "tags": [
+        "standard",
+        "preface"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/preface/contributors/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/contributors/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/contributors/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.contributors"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.preface.preface",
+      "name": "Preface",
+      "abstract": "Preface of the Standard.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": false,
+      "tags": [
+        "standard",
+        "preface"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/preface/preface/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/preface/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/preface/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.preface"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.preface.security-considerations",
+      "name": "Security considerations",
+      "abstract": "Preface section: security considerations.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": false,
+      "tags": [
+        "standard",
+        "preface"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/preface/security-considerations/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/security-considerations/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/security-considerations/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.security-considerations"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.preface.submitters",
+      "name": "Submitters",
+      "abstract": "Preface section: editors and submitters of the Standard.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": false,
+      "tags": [
+        "standard",
+        "preface"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/preface/submitters/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/submitters/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/submitters/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.submitters"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.preface.submitting-organizations",
+      "name": "Submitting organizations",
+      "abstract": "Preface section: organizations that submitted the Standard.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "clause",
+      "normative": false,
+      "tags": [
+        "standard",
+        "preface"
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/preface/submitting-organizations/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/preface/submitting-organizations/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/preface/submitting-organizations/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.preface.submitting-organizations"
+        }
+      }
+    },
+    {
+      "itemIdentifier": "my.std.part1.requirements.req-class-a",
+      "name": "Requirement Class A",
+      "abstract": "Requirements class A.",
+      "status": "under-development",
+      "dateTimeAddition": "2026-01-01T00:00:00Z",
+      "version": "0.1.0",
+      "itemClass": "requirements-class",
+      "normative": true,
+      "tags": [
+        "standard",
+        "requirements-class"
+      ],
+      "resources": [
+        {
+          "ref": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/requirements/req-class-a/requirements.yaml",
+          "role": "requirements",
+          "format": "application/yaml"
+        }
+      ],
+      "shaclShapes": {},
+      "license": {
+        "name": "OGC License Agreement",
+        "url": "https://www.ogc.org/license"
+      },
+      "dateOfLastChange": "2026-11-11",
+      "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/requirements/req-class-a/",
+      "validationPassed": true,
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/markdown/std/part1/requirements/req-class-a/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/generateddocs/json-full/std/part1/requirements/req-class-a/index.json"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/bblock/my.std.part1.requirements.req-class-a"
+        }
+      }
+    }
+  ],
+  "buildPlugins": [
+    {
+      "classes": [
+        "standard_gen.plugin.SpecgenBuildPlugin"
+      ],
+      "pip": [
+        "bblocks-specgen @ git+https://github.com/JFarduino/bblocks-specgen@feature/update"
+      ],
+      "urls": [
+        "https://github.com/JFarduino/bblocks-specgen"
+      ]
+    }
+  ],
+  "remoteCacheDir": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/annotated/_cache",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/register.json",
+      "type": "application/json",
+      "title": "This Building Blocks Register in JSON format"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.ttl",
+      "type": "text/turtle",
+      "title": "This Building Blocks Register in RDF Turtle format"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/bblocks.jsonld",
+      "type": "application/ld+json",
+      "title": "This Building Blocks Register in JSON-LD format"
+    }
+  ],
+  "standards": [
+    {
+      "id": "part1",
+      "title": "TODO Title of the Standard",
+      "version": "1.0",
+      "status": "Draft",
+      "doc-number": "OGC YY-999",
+      "path": "build/standards/part1",
+      "url": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/build/standards/part1/"
+    }
+  ]
+}

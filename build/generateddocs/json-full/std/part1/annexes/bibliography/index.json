@@ -1,0 +1,35 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.annexes.bibliography",
+  "name": "Bibliography",
+  "abstract": "Bibliography of the Standard (informative references).",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "references",
+  "normative": false,
+  "tags": [
+    "standard",
+    "bibliography"
+  ],
+  "resources": [
+    {
+      "ref": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/bibliography/references.yaml",
+      "role": "references",
+      "format": "application/yaml"
+    }
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/bibliography/",
+  "validationPassed": true,
+  "description": "> **NOTE** TODO \u2014 The TC has approved Springer LNCS as the official document citation type. For citations in\n> the text please use square brackets and consecutive numbers: [1], [2], [3].\n> Journal: [n] Author Surname, A.: Title. Publication Title. Volume number, Issue number, Pages\n> Used (Year Published). Web: [n] Author Surname, A.: Title, http://Website-Url\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/annexes/bibliography"
+}

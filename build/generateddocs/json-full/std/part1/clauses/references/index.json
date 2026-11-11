@@ -1,0 +1,35 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.clauses.references",
+  "name": "Normative references",
+  "abstract": "Clause 3: normative references (the informative ones are in the Bibliography).",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "references",
+  "normative": true,
+  "tags": [
+    "standard",
+    "clause"
+  ],
+  "resources": [
+    {
+      "ref": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/references/references.yaml",
+      "role": "references",
+      "format": "application/yaml"
+    }
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/references/",
+  "validationPassed": true,
+  "description": "The following normative documents contain provisions that, through reference in this text,\nconstitute provisions of this document. For dated references, subsequent amendments to, or revisions\nof, any of these publications do not apply. For undated references, the latest edition of the\nnormative document referred to applies.\n\n> **NOTE** TODO \u2014 Insert References in references.yaml. If there are no references, leave the list empty.\n> References are to follow the Springer LNCS style, with the exception that optional information\n> may be appended to references: DOIs are added after the date and web resource references may\n> include an access date at the end of the reference in parentheses.\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/clauses/references"
+}

@@ -1,0 +1,28 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.annexes.ats",
+  "name": "Conformance Class Abstract Test Suite",
+  "abstract": "Annex A: conformance classes and abstract tests. The tests are defined in the requirements classes (abstract-tests); this block lays out the annex.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": true,
+  "tags": [
+    "standard",
+    "annex"
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/annexes/ats/",
+  "validationPassed": true,
+  "description": "> **NOTE** TODO \u2014 Ensure that there is a conformance class for each requirements class and a test for\n> each requirement (identified by requirement name and number). The abstract tests are defined in the\n> `abstract-tests` of each `requirements.yaml`; this annex lays them out with markers.\n\n# Conformance Class A\n\n<!-- conformance-class: my.std.part1.requirements.req-class-a -->\n\n## Requirement 1\n\n<!-- abstract-test: req-class-a/req-name-1 -->\n\n## Requirement 2\n\n<!-- abstract-test: req-class-a/req-name-2 -->\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/annexes/ats"
+}

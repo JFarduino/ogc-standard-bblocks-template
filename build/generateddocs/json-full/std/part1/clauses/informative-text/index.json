@@ -1,0 +1,28 @@
+
+
+{
+  "itemIdentifier": "my.std.part1.clauses.informative-text",
+  "name": "Clauses not Containing Normative Material",
+  "abstract": "Clause 6: informative clauses.",
+  "status": "under-development",
+  "dateTimeAddition": "2026-01-01T00:00:00Z",
+  "version": "0.1.0",
+  "itemClass": "clause",
+  "normative": false,
+  "tags": [
+    "standard",
+    "clause"
+  ],
+  "shaclShapes": {},
+  "license": {
+    "name": "OGC License Agreement",
+    "url": "https://www.ogc.org/license"
+  },
+  "dateOfLastChange": "2026-11-11",
+  "sourceFiles": "https://raw.githubusercontent.com/JFarduino/ogc-standard-bblocks-template/main/_sources/part1/clauses/informative-text/",
+  "validationPassed": true,
+  "description": "TODO Paragraph\n\n## Clauses not containing normative material sub-clause 1\n\nTODO Paragraph\n\n## Clauses not containing normative material sub-clause 2\n\nTODO Paragraph\n",
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/JFarduino/ogc-standard-bblocks-template",
+  "gitPath": "_sources/part1/clauses/informative-text"
+}
