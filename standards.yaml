@@ -8,7 +8,9 @@
 # asks for the main ones -- then generate the document with ./build.sh, or push to GitHub.
 #
 # Read by bblocks-specgen (declared as a build plugin in bblocks-config.yaml), not by
-# bblocks-postprocess. Reference: https://github.com/ogcincubator/bblocks-specgen/blob/master/docs/authoring.md
+# bblocks-postprocess. Reference: https://github.com/JFarduino/bblocks-specgen/blob/feature/update/docs/authoring.md
+# (temporary fork, see bblocks-config.yaml: once https://github.com/ogcincubator/bblocks-specgen/pull/2
+# is merged, the reference is https://github.com/ogcincubator/bblocks-specgen/blob/master/docs/authoring.md)
 
 standards:
 

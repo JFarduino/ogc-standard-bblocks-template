@@ -12,7 +12,10 @@ and generate the standards document from them.
 - The generator is [bblocks-postprocess](https://github.com/opengeospatial/bblocks-postprocess)
   (validation, register, viewer) with the [bblocks-specgen](https://github.com/JFarduino/bblocks-specgen)
   build plugin (`layout: ogc`: ModSpec tables, numbered clauses, OGC cover), declared in
-  [`bblocks-config.yaml`](bblocks-config.yaml).
+  [`bblocks-config.yaml`](bblocks-config.yaml). Using the JFarduino fork (`feature/update` branch) is
+  temporary: once [ogcincubator/bblocks-specgen#2](https://github.com/ogcincubator/bblocks-specgen/pull/2)
+  is merged, the template will use the official
+  [ogcincubator/bblocks-specgen](https://github.com/ogcincubator/bblocks-specgen).
 
 Out of the template, everything to fill in is marked **TODO**, and the document still generates.
 
@@ -86,7 +89,9 @@ informative) and a `description.md` (the clause text). Clauses are numbered in t
   `bblocks-config.yaml`.
 
 The format of these files is described in the
-[bblocks-specgen authoring guide](https://github.com/JFarduino/bblocks-specgen/blob/feature/update/docs/authoring.md).
+[bblocks-specgen authoring guide](https://github.com/JFarduino/bblocks-specgen/blob/feature/update/docs/authoring.md)
+(the fork's version, which documents `layout: ogc`; it moves to ogcincubator/bblocks-specgen once
+[PR #2](https://github.com/ogcincubator/bblocks-specgen/pull/2) is merged).
 
 ## Building locally
 
